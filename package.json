@@ -1,0 +1,14 @@
+{
+  "name": "db-healthcheck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "knex": "^0.21.6",
+    "mssql": "^6.2.3",
+    "node-cron": "^2.0.3"
+  }
+}
